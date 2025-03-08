@@ -1,6 +1,5 @@
 # Event Management System
 
-# Running Project: https://youtu.be/3w-3kVmWItg
 
 ## Project Description
 The Event Management System is a web application that allows users to create, manage, and promote events. It streamlines the event planning process and enhances attendee engagement for both organizers and participants.
