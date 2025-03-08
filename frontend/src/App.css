@@ -1,0 +1,363 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-container{
+  /* border: 1px solid black; */
+  height: 3.65rem;
+  max-width: 100%;
+  background-color: rgb(255, 98, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-ul{
+  /* border: 1px solid yellow; */
+  width: 95%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.logo {
+  border: 1px solid black;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.nav-ul li{
+  list-style: none;
+}
+
+.nav-ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-ul li a:hover{
+  color: white;
+}
+
+.footer-container{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(255, 98, 1);
+}
+
+.footer-container h4{
+  margin: 1rem;
+}
+
+.signup-container{
+  /* border: 1px solid black; */
+  max-width: 100%;
+  height: 81.27vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.signup-container h1{
+  margin-top: 2rem;
+}
+
+.input-container{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.input-container input{
+  width: 30rem;
+  height: 2.5rem;
+  outline: none;
+  border: 1px solid rgb(255, 98, 1);
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: rgb(255, 98, 1);
+}
+
+.input-container input:hover{
+  border: none;
+  outline: 1px solid black;
+}
+
+.button-container button{
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 98, 1);
+  background-color: rgb(255, 98, 1);
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-container button:hover{
+  background-color: white;
+  color: rgb(255, 98, 1);
+}
+
+.nav-reight{
+  text-align: right;
+}
+
+.addproduct-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.addproduct-container input{
+  width: 30rem;
+  height: 2.5rem;
+  outline: none;
+  border: 1px solid rgb(255, 98, 1);
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: rgb(255, 98, 1);
+  margin: 1rem;
+}
+
+.addproduct-container input:hover{
+  border: none;
+  outline: 1px solid black;
+}
+
+.addproduct-container button{
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 98, 1);
+  background-color: rgb(255, 98, 1);
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.addproduct-container button:hover{
+  background-color: white;
+  color: rgb(255, 98, 1);
+}
+
+.addproduct-container .invalid-input{
+  margin-top: -18px;
+  color: red;
+}
+
+.product-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.product-list tr{
+  margin: 0;
+  padding: 0;
+}
+
+.product-list tr td,th{
+  padding: 1rem 2rem;
+  border: 1px solid rgb(255, 98, 1);
+  text-align: center;
+}
+
+.product-list tr td button{
+  width: 4rem;
+  height: 1.5rem;
+  border: 1px solid rgb(255, 98, 1);
+  background-color: rgb(255, 98, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-list tr td button:hover{
+  background-color: white;
+  color: rgb(255, 98, 1);
+}
+
+.product-list input {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.2rem;
+  border: 1.2px solid rgb(255, 98, 1);
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.product-list input:hover{
+  border: 1.2px solid black;
+}
+
+.profile-container {
+  margin: 2rem;
+}
+
+.profile-container h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-container p{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: rgb(255, 98, 1);
+}
+
+.update-button{
+
+    border: none;
+    margin: 0.5rem;
+    background-color: rgb(255, 98, 1);
+    padding: 0.1rem 0.5rem;
+    font-size: 15px;
+    border-radius: 0.65rem;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.update-button:hover{
+  background-color: white;
+  color: rgb(255, 98, 1);
+  border: 1px solid rgb(255, 98, 1);
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.event-list {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.event-list h1 {
+  margin: 20px 0;
+  color: #333;
+}
+
+.event-list input[type="text"] {
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.event-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.event-card {
+  width: 280px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card h3 {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.event-card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: black;
+}
+
+.event-card p strong{
+  color: green;
+}
+
+.event-card p span{
+  font-size: 1rem;
+  color: red;
+}
+
+.get-ticket-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 2rem;
+  background-color: rgb(255, 98, 1);;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.get-ticket-button:hover {
+  background-color: white;
+  color: rgb(255, 98, 1);
+  border: 1px solid rgb(255, 98, 1);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
